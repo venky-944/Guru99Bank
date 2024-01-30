@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestChromBrowser(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="prjectdemopackage.Customer_cls">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="browserintailtion"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- prjectdemopackage.Customer_cls -->
+    </classes>
+  </test> <!-- TestChromBrowser(failed) -->
+  <test thread-count="5" name="TestFirfoexBrowser(failed)">
+    <parameter name="browser" value="firfox"/>
+    <classes>
+      <class name="prjectdemopackage.Customer_cls">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="browserintailtion"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- prjectdemopackage.Customer_cls -->
+    </classes>
+  </test> <!-- TestFirfoexBrowser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
